@@ -1,0 +1,19 @@
+{
+  "name": "islandy-movies",
+  "version": "1.0.0",
+  "description": "🏝️ islandy: Preact Islands with Express.js",
+  "scripts": {
+    "build": "islandy build",
+    "build:css": "npx tailwindcss -i ./styles.css -o ./public/src/styles.css --watch",
+    "dev": "islandy build --watch | islandy dev",
+    "start": "islandy start"
+  },
+  "dependencies": {
+    "@preact/signals": "^1.1.2",
+    "islandy": "^1.0.0-alpha.4",
+    "preact": "^10.11.2"
+  },
+  "engines": {
+    "node": ">=16.x"
+  }
+}
